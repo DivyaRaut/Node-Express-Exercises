@@ -62,7 +62,7 @@ app.post("/activity", (req, res) => {
 //Create a route that will edit an existing activity
 app.put("/activity/:id", (req, res) => {
   //#03/31/2020#
-  let todoData = jsonData.myToDoList.myToDoList.find(
+  let todoData = jsonData.myToDoList.find(
     t => t.id === parseInt(req.params.id)
   );
   if (!todoData) {
