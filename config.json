@@ -1,0 +1,8 @@
+{
+  "NON_PROD": {
+    "url": "nonProdUrl"
+  },
+  "PROD": {
+    "url": "Produrl"
+  }
+}
